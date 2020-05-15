@@ -18,6 +18,13 @@
   letter-spacing: 0.03em;
 }
 
+.page-header {
+  width: 1600px;
+}
+
+.header-container {
+  display: flex;
+}
 ul {
   list-style: none;
 }
@@ -55,7 +62,21 @@ ul {
   color: #2196f3;
 }
 
+.site-nav {
+  display: flex;
+}
+
+.site-nav .item:not(:last-child) {
+  margin-right: 50px;
+}
 /* address */
+.address {
+  display: flex;
+}
+
+.address .item + .item {
+  margin-left: 50px;
+}
 .address .item {
   color: #757575;
   text-decoration: none;
