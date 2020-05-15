@@ -21,11 +21,14 @@
   display: flex;
   align-items: center;
 }
-.header-container {
+.container {
+  margin-left: auto;
+  margin-right: auto;
   width: 1230px;
   padding-left: 15px;
   padding-right: 15px;
-
+}
+.header {
   display: flex;
   align-items: center;
 }
@@ -131,9 +134,13 @@ address .item:focus {
 }
 .hero {
   text-align: center;
+  margin-bottom: 94px;
 }
 
 /* Section */
+.section {
+  margin-bottom: 94px;
+}
 .section-title {
   color: #212121;
   font-weight: 700;
@@ -144,6 +151,8 @@ address .item:focus {
 
 /* Features */
 .feature-list .title {
+  margin-bottom: 10px;
+
   color: #212121;
   font-weight: 700;
   font-size: 14px;
