@@ -17,14 +17,19 @@
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
 }
-
-.page-header {
-  width: 1600px;
-}
-
-.header-container {
+.nav-conteiner {
   display: flex;
+  align-items: center;
 }
+.header-container {
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  display: flex;
+  align-items: center;
+}
+
 ul {
   list-style: none;
 }
@@ -64,6 +69,7 @@ ul {
 
 .site-nav {
   display: flex;
+  margin-left: 86px;
 }
 
 .site-nav .item:not(:last-child) {
@@ -72,6 +78,7 @@ ul {
 /* address */
 .address {
   display: flex;
+  margin-left: auto;
 }
 
 .address .item + .item {
@@ -94,26 +101,36 @@ address .item:focus {
 
 /* Hero */
 .hero-title {
+  margin-top: 0px;
+  margin-bottom: 46px;
+
   /* color: #ffffff; */
+
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
 
 .hero-button {
+  display: inline-block;
+  border-radius: 4px;
+  padding: 10px 32px;
+  min-width: 200px;
+
   color: #ffffff;
   background-color: #2196f3;
+
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
+  text-align: center;
   text-decoration: none;
+}
+.hero {
+  text-align: center;
 }
 
 /* Section */
@@ -177,15 +194,19 @@ address .item:focus {
 }
 
 .studio-button {
+  display: inline-block;
+  border-radius: 4px;
+  padding: 10px 45px 10px 46px;
+  min-width: 109px;
+
+  background-color: #2196f3;
+  color: #ffffff;
+
   font-weight: 900;
   font-size: 16px;
   line-height: 1.87;
-  display: flex;
-  align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  background-color: #2196f3;
-  color: #ffffff;
   text-decoration: none;
 }
 
