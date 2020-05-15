@@ -1,0 +1,243 @@
+/* Стили для index.html */
+
+/* основной цвет фона #FFFFFF */
+/* вторичный цвет фона #F5F4FA */
+/* цвет основного текста #757575 */
+/* вторичный цвет текста #212121 */
+/* белый #FFFFFF */
+/* акцент #2196F3 */
+
+/* по умолчанию */
+/* fon-style: normal */
+/* fon-weight: 400 для p, 700 для h*/
+
+.page {
+  color: #757575;
+  background-color: #ffffff;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Logo */
+
+.logo {
+  color: #2196f3;
+  font-family: Raleway, cursive;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+
+.logo .accent {
+  color: #000000;
+}
+
+/* Site-nav */
+.site-nav .link {
+  color: #212121;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+
+.site-nav .link.current {
+  color: #2196f3;
+}
+
+/* address */
+.address .item {
+  color: #757575;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.address .item:hover,
+address .item:focus {
+  color: #2196f3;
+}
+
+/* Hero */
+.hero-title {
+  /* color: #ffffff; */
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.hero-button {
+  color: #ffffff;
+  background-color: #2196f3;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+}
+
+/* Section */
+.section-title {
+  color: #212121;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+/* Features */
+.feature-list .title {
+  color: #212121;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.feature-list .text {
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+/* Product */
+.product .product-list {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  text-transform: uppercase;
+  /* color: #ffffff; */
+}
+
+/* Team */
+.team-list .title {
+  color: #212121;
+}
+
+.team {
+  background: #f5f4fa;
+}
+
+/* Футер */
+.contact {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: #ffffff;
+}
+
+.info {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+.studio-button {
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  background-color: #2196f3;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.action {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.footer {
+  background-color: #2f303a;
+}
+
+.madeby {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.4);
+}
+.logo-footer {
+  color: #ffffff;
+}
+/* Стили для portfolio.html */
+
+/* основной цвет фона #FFFFFF */
+/* вторичный цвет фона #F5F4FA */
+/* цвет основного текста #212121 */
+/* вторичный цвет текста #757575 */
+
+.portfolio-filter .button {
+  color: #212121;
+}
+
+.portfolio-filter .button:hover,
+.portfolio-filter .button:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+}
+
+.projects .title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.projects .link {
+  text-decoration: none;
+}
+
+.projects .subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  color: #757575;
+}
+
+.projects .text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.56;
+  /* color: #ffffff; */
+}
