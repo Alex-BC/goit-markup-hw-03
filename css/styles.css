@@ -144,6 +144,7 @@ address .item:focus {
   margin-bottom: 94px;
 }
 .section-title {
+  margin-top: 0;
   color: #212121;
   font-weight: 700;
   font-size: 36px;
@@ -154,6 +155,7 @@ address .item:focus {
 
 /* Features */
 .feature-list .title {
+  margin-top: 0;
   margin-bottom: 10px;
 
   color: #212121;
@@ -164,6 +166,9 @@ address .item:focus {
 }
 
 .feature-list .text {
+  margin-top: 0;
+  margin-bottom: 0;
+
   font-size: 14px;
   line-height: 1.71;
 }
@@ -172,7 +177,9 @@ address .item:focus {
   display: flex;
   justify-content: center;
 }
-
+.feature-list .list:not(:last-child) {
+  margin-right: 30px;
+}
 /* Product */
 .product .product-list {
   font-weight: 700;
@@ -189,18 +196,31 @@ address .item:focus {
 }
 /* Team */
 .team-list .title {
+  margin-top: 30px;
+  margin-bottom: 10px;
   color: #212121;
 }
 
 .team {
+  padding-top: 94px;
+  padding-bottom: 0;
   background: #f5f4fa;
 }
 
 .team-list {
   display: flex;
   justify-content: center;
+  text-align: center;
 }
 
+.team-list-container:not(:last-child) {
+  margin-right: 30px;
+}
+
+.job-title {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
 /* Clients */
 .section .list-clients {
   display: flex;
@@ -212,6 +232,12 @@ address .item:focus {
   margin-right: 30px;
   width: 175px;
   height: 90px;
+}
+
+.list-clients .item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Футер */
@@ -271,6 +297,28 @@ address .item:focus {
 }
 .logo-footer {
   color: #ffffff;
+}
+.footer .container {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: flex-start;
+}
+
+.address-footer .contact {
+  margin-bottom: 9px;
+}
+
+.address-footer .info {
+  margin-bottom: 9px;
+}
+.social-links {
+  display: flex;
+  padding-left: 0;
+  margin-top: 21px;
+  margin-bottom: 0;
+}
+.footer {
+  padding-top: 48px;
 }
 /* Стили для portfolio.html */
 

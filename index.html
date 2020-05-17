@@ -55,7 +55,7 @@
           <h2>Функции</h2>
 
           <ul class="feature-list">
-            <li>
+            <li class="list">
               <img
                 src="./img/Внимание-к-деталям.png"
                 alt="Внимание к деталям"
@@ -67,7 +67,7 @@
               </p>
             </li>
 
-            <li>
+            <li class="list">
               <img src="./img/Пунктуальность.png" alt="Пунктуальность" />
               <h3 class="title">Пунктуальность</h3>
               <p class="text">
@@ -76,7 +76,7 @@
               </p>
             </li>
 
-            <li>
+            <li class="list">
               <img src="./img/Планирование.png" alt="Планирование" />
               <h3 class="title">Планирование</h3>
               <p class="text">
@@ -85,7 +85,7 @@
               </p>
             </li>
 
-            <li>
+            <li class="list">
               <img
                 src="./img/Современные-технологии.png"
                 alt="Современные технологии"
@@ -146,60 +146,58 @@
       </div>
 
       <!--Наша команда-->
-      <div class="">
-        <section class="section team">
-          <h2 class="section-title">Наша команда</h2>
-          <ul lang="en" class="team-list container">
-            <li>
-              <img src="./img/John-Smith.jpg" alt="John Smith" />
-              <h3 class="title">John Smith</h3>
-              <p>Product Designer</p>
-              <ul>
-                <li><a href="" aria-label="Instagram link">Instagram</a></li>
-                <li><a href="" aria-label="Twitter link">Twitter</a></li>
-                <li><a href="" aria-label="Facebook link">Facebook</a></li>
-                <li><a href="" aria-label="LinkedIn link">LinkedIn</a></li>
-              </ul>
-            </li>
+      <section class="section team">
+        <h2 class="section-title">Наша команда</h2>
+        <ul lang="en" class="team-list container">
+          <li class="team-list-container">
+            <img src="./img/John-Smith.jpg" alt="John Smith" />
+            <h3 class="title">John Smith</h3>
+            <p class="job-title">Product Designer</p>
+            <ul>
+              <li><a href="" aria-label="Instagram link">Instagram</a></li>
+              <li><a href="" aria-label="Twitter link">Twitter</a></li>
+              <li><a href="" aria-label="Facebook link">Facebook</a></li>
+              <li><a href="" aria-label="LinkedIn link">LinkedIn</a></li>
+            </ul>
+          </li>
 
-            <li>
-              <img src="./img/Marta-Stewart.jpg" alt="Marta Stewart" />
-              <h3 class="title">Marta Stewart</h3>
-              <p>Frontend Developer</p>
-              <ul>
-                <li><a href="" aria-label="Instagram link">Instagram</a></li>
-                <li><a href="" aria-label="Twitter link">Twitter</a></li>
-                <li><a href="" aria-label="Facebook link">Facebook</a></li>
-                <li><a href="" aria-label="LinkedIn link">LinkedIn</a></li>
-              </ul>
-            </li>
+          <li class="team-list-container">
+            <img src="./img/Marta-Stewart.jpg" alt="Marta Stewart" />
+            <h3 class="title">Marta Stewart</h3>
+            <p class="job-title">Frontend Developer</p>
+            <ul>
+              <li><a href="" aria-label="Instagram link">Instagram</a></li>
+              <li><a href="" aria-label="Twitter link">Twitter</a></li>
+              <li><a href="" aria-label="Facebook link">Facebook</a></li>
+              <li><a href="" aria-label="LinkedIn link">LinkedIn</a></li>
+            </ul>
+          </li>
 
-            <li>
-              <img src="./img/Robert-Jakis.jpg" alt="Robert Jakis" />
-              <h3 class="title">Robert Jakis</h3>
-              <p>Marketing</p>
-              <ul>
-                <li><a href="" aria-label="Instagram link">Instagram</a></li>
-                <li><a href="" aria-label="Twitter link">Twitter</a></li>
-                <li><a href="" aria-label="Facebook link">Facebook</a></li>
-                <li><a href="" aria-label="LinkedIn link">LinkedIn</a></li>
-              </ul>
-            </li>
+          <li class="team-list-container">
+            <img src="./img/Robert-Jakis.jpg" alt="Robert Jakis" />
+            <h3 class="title">Robert Jakis</h3>
+            <p class="job-title">Marketing</p>
+            <ul>
+              <li><a href="" aria-label="Instagram link">Instagram</a></li>
+              <li><a href="" aria-label="Twitter link">Twitter</a></li>
+              <li><a href="" aria-label="Facebook link">Facebook</a></li>
+              <li><a href="" aria-label="LinkedIn link">LinkedIn</a></li>
+            </ul>
+          </li>
 
-            <li>
-              <img src="./img/Martin-Doe.jpg" alt="Martin Doe" />
-              <h3 class="title">Martin Doe</h3>
-              <p>UI Designer</p>
-              <ul>
-                <li><a href="" aria-label="Instagram link">Instagram</a></li>
-                <li><a href="" aria-label="Twitter link">Twitter</a></li>
-                <li><a href="" aria-label="Facebook link">Facebook</a></li>
-                <li><a href="" aria-label="LinkedIn link">LinkedIn</a></li>
-              </ul>
-            </li>
-          </ul>
-        </section>
-      </div>
+          <li class="team-list-container">
+            <img src="./img/Martin-Doe.jpg" alt="Martin Doe" />
+            <h3 class="title">Martin Doe</h3>
+            <p class="job-title">UI Designer</p>
+            <ul>
+              <li><a href="" aria-label="Instagram link">Instagram</a></li>
+              <li><a href="" aria-label="Twitter link">Twitter</a></li>
+              <li><a href="" aria-label="Facebook link">Facebook</a></li>
+              <li><a href="" aria-label="LinkedIn link">LinkedIn</a></li>
+            </ul>
+          </li>
+        </ul>
+      </section>
 
       <!--Постоянные клиенты-->
       <div class="container">
@@ -232,31 +230,33 @@
 
     <!--Футер-->
     <footer class="footer">
-      <div>
-        <a class="logo">Web <span class="logo-footer">Studio</span></a>
-        <address>
-          <a class="contact">г. Киев, пр-т Леси Украинки, 26, </a><br />
-          <a href="mailto:info@example.com" class="info">info@example.com</a
-          ><br />
-          <a href="tel:+380961111111" class="info">+38 096 111 11 11</a>
-        </address>
-      </div>
+      <div class="container">
+        <div>
+          <a class="logo">Web <span class="logo-footer">Studio</span></a>
+          <address class="address-footer">
+            <a class="contact">г. Киев, пр-т Леси Украинки, 26, </a><br />
+            <a href="mailto:info@example.com" class="info">info@example.com</a
+            ><br />
+            <a href="tel:+380961111111" class="info">+38 096 111 11 11</a>
+          </address>
+        </div>
 
-      <div>
-        <p class="action">Присоединяйтесь</p>
-        <ul>
-          <li>
-            <a href="" aria-label="Cсылка на Instagram">Instagram</a>
-          </li>
-          <li><a href="" aria-label="Cсылка на Twitter">Twitter</a></li>
-          <li><a href="" aria-label="Cсылка на Facebook">Facebook</a></li>
-          <li><a href="" aria-label="Cсылка на LinkedIn">LinkedIn</a></li>
-        </ul>
-      </div>
+        <div class="action-social-links">
+          <p class="action">Присоединяйтесь</p>
+          <ul class="social-links">
+            <li>
+              <a href="" aria-label="Cсылка на Instagram">Instagram</a>
+            </li>
+            <li><a href="" aria-label="Cсылка на Twitter">Twitter</a></li>
+            <li><a href="" aria-label="Cсылка на Facebook">Facebook</a></li>
+            <li><a href="" aria-label="Cсылка на LinkedIn">LinkedIn</a></li>
+          </ul>
+        </div>
 
-      <div>
-        <p class="action">Подпишитесь на рассылку</p>
-        <a href="" class="studio-button">Подписаться</a>
+        <div class="action-studio-button">
+          <p class="action">Подпишитесь на рассылку</p>
+          <a href="" class="studio-button">Подписаться</a>
+        </div>
       </div>
 
       <p class="madeby">2020 Developed by GoIT Students</p>
