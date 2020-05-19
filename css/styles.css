@@ -315,9 +315,6 @@ address .item:focus {
 }
 
 .footer {
-  display: block;
-  padding-top: 48px;
-
   background-color: #2f303a;
 }
 
@@ -339,16 +336,21 @@ address .item:focus {
 }
 .footer .container {
   display: flex;
+  padding-bottom: 28px;
+  padding-top: 48px;
+
   /* justify-content: space-between; */
   /* align-items: flex-start; */
-  align-items: center;
+  align-items: baseline;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .address-footer .contact {
   margin-bottom: 9px;
 }
-
+.address-list {
+  margin-right: 69px;
+}
 .address-footer .info {
   margin-bottom: 9px;
 }
@@ -361,6 +363,14 @@ address .item:focus {
   justify-content: center;
 }
 
+.footer .logo {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.footer .action-social-links {
+  margin-right: 96px;
+}
 /* Стили для portfolio.html */
 
 /* основной цвет фона #FFFFFF */
