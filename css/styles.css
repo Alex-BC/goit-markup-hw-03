@@ -17,6 +17,11 @@
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
 }
+
+*,
+::after ::before {
+  box-sizing: border-box;
+}
 .nav-conteiner {
   display: flex;
   align-items: center;
@@ -24,13 +29,16 @@
 .container {
   margin-left: auto;
   margin-right: auto;
-  width: 1230px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
 }
+
 .header {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  height: 80px;
 }
 
 ul {
@@ -107,6 +115,8 @@ address .item:focus {
   margin-top: 0px;
   margin-bottom: 46px;
   width: 646px;
+  margin-left: auto;
+  margin-right: auto;
 
   /* color: #ffffff; */
 
@@ -115,7 +125,7 @@ address .item:focus {
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  text-align: center;
+  align-content: center;
 }
 
 .hero-button {
@@ -136,12 +146,14 @@ address .item:focus {
 }
 .hero {
   text-align: center;
-  margin-bottom: 94px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 /* Section */
 .section {
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .section-title {
   margin-top: 0;
@@ -154,6 +166,9 @@ address .item:focus {
 }
 
 /* Features */
+.is-hidden {
+  display: none;
+}
 .feature-list .title {
   margin-top: 0;
   margin-bottom: 10px;
@@ -181,6 +196,7 @@ address .item:focus {
   margin-right: 30px;
 }
 /* Product */
+
 .product .product-list {
   font-weight: 700;
   font-size: 14px;
@@ -202,8 +218,6 @@ address .item:focus {
 }
 
 .team {
-  padding-top: 94px;
-  padding-bottom: 0;
   background: #f5f4fa;
 }
 
@@ -213,10 +227,27 @@ address .item:focus {
   text-align: center;
 }
 
+.team-list-container .title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.16;
+  text-align: center;
+}
+.team-list-container {
+  border-radius: 4px;
+  padding-bottom: 24px;
+
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 1px 3px rgba(0, 0, 0, 0.12);
+  background-color: #ffffff;
+}
 .team-list-container:not(:last-child) {
   margin-right: 30px;
 }
-
+.team-list-container .social-links {
+  display: flex;
+  justify-content: space-evenly;
+}
 .job-title {
   margin-top: 0;
   margin-bottom: 16px;
@@ -284,10 +315,18 @@ address .item:focus {
 }
 
 .footer {
+  display: block;
+  padding-top: 48px;
+
   background-color: #2f303a;
 }
 
-.madeby {
+.copyright {
+  padding-top: 18px;
+  padding-bottom: 21px;
+  margin-top: 0;
+  margin-bottom: 0;
+
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -301,7 +340,9 @@ address .item:focus {
 .footer .container {
   display: flex;
   /* justify-content: space-between; */
-  align-items: flex-start;
+  /* align-items: flex-start; */
+  align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .address-footer .contact {
@@ -314,12 +355,12 @@ address .item:focus {
 .social-links {
   display: flex;
   padding-left: 0;
-  margin-top: 21px;
+  margin-top: 0;
   margin-bottom: 0;
+  align-items: center;
+  justify-content: center;
 }
-.footer {
-  padding-top: 48px;
-}
+
 /* Стили для portfolio.html */
 
 /* основной цвет фона #FFFFFF */
