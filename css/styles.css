@@ -22,6 +22,15 @@
 ::after ::before {
   box-sizing: border-box;
 }
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
 .nav-conteiner {
   display: flex;
   align-items: center;
@@ -41,6 +50,9 @@
   height: 80px;
 }
 
+.page-header {
+  border-bottom: 1px solid #ececec;
+}
 ul {
   list-style: none;
 }
@@ -210,6 +222,7 @@ address .item:focus {
   display: flex;
   justify-content: center;
 }
+
 /* Team */
 .team-list .title {
   margin-top: 30px;
@@ -339,8 +352,7 @@ address .item:focus {
   padding-bottom: 28px;
   padding-top: 48px;
 
-  /* justify-content: space-between; */
-  /* align-items: flex-start; */
+  justify-content: space-between;
   align-items: baseline;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
@@ -348,12 +360,7 @@ address .item:focus {
 .address-footer .contact {
   margin-bottom: 9px;
 }
-.address-list {
-  margin-right: 69px;
-}
-.address-footer .info {
-  margin-bottom: 9px;
-}
+
 .social-links {
   display: flex;
   padding-left: 0;
@@ -368,9 +375,6 @@ address .item:focus {
   margin-bottom: 10px;
 }
 
-.footer .action-social-links {
-  margin-right: 96px;
-}
 /* Стили для portfolio.html */
 
 /* основной цвет фона #FFFFFF */
@@ -379,7 +383,11 @@ address .item:focus {
 /* вторичный цвет текста #757575 */
 
 .portfolio-filter .button {
+  /* margin-right: 8px; */
   color: #212121;
+}
+.filter-list:not(:last-child) {
+  margin-right: 8px;
 }
 
 .portfolio-filter .button:hover,
@@ -425,10 +433,12 @@ button {
 .projects {
   display: flex;
   flex-wrap: wrap;
+  margin-top: 0;
+  margin-bottom: 94px;
 }
 
 .projects-items {
-  width: 380px;
+  width: 370px;
 }
 
 .projects-items:not(:nth-child(3n)) {
@@ -442,4 +452,6 @@ button {
 .portfolio-filter {
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
+  margin-top: 93px;
 }
