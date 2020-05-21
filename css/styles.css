@@ -21,6 +21,8 @@
 *,
 ::after ::before {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 .visually-hidden {
@@ -220,7 +222,7 @@ address .item:focus {
 
 .product {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 /* Team */
